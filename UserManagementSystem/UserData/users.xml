@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user>
+    <id>1</id>
+    <name>Harvey</name>
+    <surname>Specter</surname>
+    <cellphoneNumber>0845651111</cellphoneNumber>
+  </user>
+  <user>
+    <id>2</id>
+    <name>Scott</name>
+    <surname>Allen</surname>
+    <cellphoneNumber>0845652222</cellphoneNumber>
+  </user>
+  <user>
+    <id>3</id>
+    <name>Bucky</name>
+    <surname>Roberts</surname>
+    <cellphoneNumber>0845653333</cellphoneNumber>
+  </user>
+  <user>
+    <id>4</id>
+    <name>Siva</name>
+    <surname>Udadth</surname>
+    <cellphoneNumber>0845654444</cellphoneNumber>
+  </user>
+  <user>
+    <id>5</id>
+    <name>Nick</name>
+    <surname>Sheldon</surname>
+    <cellphoneNumber>0845655555</cellphoneNumber>
+  </user>
+  <user>
+    <id>6</id>
+    <name>Rick</name>
+    <surname>Mart</surname>
+    <cellphoneNumber>0845656666</cellphoneNumber>
+  </user>
+  <user>
+    <id>7</id>
+    <name>Jared</name>
+    <surname>Roy</surname>
+    <cellphoneNumber>0845657777</cellphoneNumber>
+  </user>
+</users>

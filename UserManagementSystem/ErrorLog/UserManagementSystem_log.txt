@@ -1,0 +1,48 @@
+2021-02-14 15:55:48,267 [10] INFO  UserManagementSystem.Controllers.UserController - Trying to load all the users
+2021-02-14 15:55:48,276 [10] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 15:55:48,286 [10] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 15:55:51,207 [10] INFO  UserManagementSystem.Controllers.UserController - Trying to manipulate the UserViewModel
+2021-02-14 15:55:51,208 [10] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 15:55:51,209 [10] INFO  UserManagementSystem.Data.UserManager - Get the user by Id from xml
+2021-02-14 15:55:53,684 [9] INFO  UserManagementSystem.Controllers.UserController - Trying to manipulate the UserViewModel
+2021-02-14 15:55:53,685 [9] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 15:55:53,687 [9] INFO  UserManagementSystem.Data.UserManager - Update the user by User model into xml
+2021-02-14 15:55:53,688 [9] INFO  UserManagementSystem.Data.UserManager - Validate the entity
+2021-02-14 15:55:53,703 [9] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 15:55:53,703 [9] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 16:07:20,094 [7] INFO  UserManagementSystem.Controllers.UserController - Trying to load all the users
+2021-02-14 16:07:20,109 [7] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 16:07:20,185 [7] ERROR UserManagementSystem.Controllers.UserController - Error on load users: System.Exception: Error on load initial records: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files (x86)\IIS Express\UserData\users.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlDocument.Save(String filename)
+   at UserManagementSystem.Data.UserManager.CreateInitialUsers() in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 304
+   at UserManagementSystem.Data.UserManager.CreateInitialUsers() in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 311
+   at UserManagementSystem.Data.UserManager.GetUsers(String searchField) in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 48
+2021-02-14 16:07:22,816 [7] INFO  UserManagementSystem.Controllers.UserController - Trying to manipulate the UserViewModel
+2021-02-14 16:07:24,466 [5] INFO  UserManagementSystem.Controllers.UserController - Trying to manipulate the UserViewModel
+2021-02-14 16:07:24,466 [5] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 16:07:24,502 [5] ERROR UserManagementSystem.Controllers.UserController - Error on load users: System.Exception: Error on load initial records: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files (x86)\IIS Express\UserData\users.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlDocument.Save(String filename)
+   at UserManagementSystem.Data.UserManager.CreateInitialUsers() in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 304
+   at UserManagementSystem.Data.UserManager.CreateInitialUsers() in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 311
+   at UserManagementSystem.Data.UserManager.GetUsers(String searchField) in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 48
+2021-02-14 16:07:27,813 [5] INFO  UserManagementSystem.Controllers.UserController - Trying to load all the users
+2021-02-14 16:07:27,813 [5] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 16:07:27,845 [5] ERROR UserManagementSystem.Controllers.UserController - Error on load users: System.Exception: Error on load initial records: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files (x86)\IIS Express\UserData\users.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlDocument.Save(String filename)
+   at UserManagementSystem.Data.UserManager.CreateInitialUsers() in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 304
+   at UserManagementSystem.Data.UserManager.CreateInitialUsers() in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 311
+   at UserManagementSystem.Data.UserManager.GetUsers(String searchField) in C:\Users\msr23\Downloads\2_JbsRltdStf\5_Tsk\2_PropTchEFre\Task\Test 1 -Web App\UserManagementSystem\UserManagementSystem.Data\UserManager.cs:line 48
+2021-02-14 16:08:08,668 [6] INFO  UserManagementSystem.Controllers.UserController - Trying to load all the users
+2021-02-14 16:09:50,384 [6] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 16:16:52,298 [6] INFO  UserManagementSystem.Controllers.UserController - Trying to load all the users
+2021-02-14 16:17:36,603 [6] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
+2021-02-14 16:17:55,320 [6] INFO  UserManagementSystem.Data.UserManager - Trying to get the users from xml
